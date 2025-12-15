@@ -9,3 +9,6 @@ routes = [
 [observability]
 enabled = true
 head_sampling_rate = 1
+
+[vars]
+OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
