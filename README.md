@@ -152,6 +152,15 @@ curl -X POST https://cc.yovy.app/v1/messages \
 
 ### Local Development (Wrangler)
 
+Create a `.dev.vars` file in the project root to configure environment variables for local development:
+
+```bash
+# .dev.vars
+OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
+```
+
+Then start the development server:
+
 ```bash
 npm run dev    # Start development server
 npm run deploy # Deploy to Cloudflare Workers
